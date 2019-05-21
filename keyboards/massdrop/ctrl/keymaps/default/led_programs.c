@@ -41,10 +41,10 @@ led_setup_t leds_teal_read[] = {
 };
 
 led_setup_t leds_msft[] = {
-    { .hs = 0,  .he = 25,  .rs = 242,  .re = 242,  .gs = 80, .ge = 80, .bs = 34, .be = 34, .ef = EF_NONE },
-    { .hs = 25,  .he = 50,  .rs = 127,  .re = 127,  .gs = 186, .ge = 186, .bs = 0, .be = 0, .ef = EF_NONE },
+    { .hs = 0,  .he = 25,  .rs = 255,  .re = 255,  .gs = 31, .ge = 31, .bs = 0, .be = 0, .ef = EF_NONE },
+    { .hs = 25,  .he = 50,  .rs = 63,  .re = 63,  .gs = 255, .ge = 255, .bs = 0, .be = 0, .ef = EF_NONE },
     { .hs = 50,  .he = 75,  .rs = 0,  .re = 0,  .gs = 164, .ge = 164, .bs = 239, .be = 239, .ef = EF_NONE },
-    { .hs = 75,  .he = 100,  .rs = 255,  .re = 255,  .gs = 185, .ge = 185, .bs = 0, .be = 0, .ef = EF_NONE },
+    { .hs = 75,  .he = 100,  .rs = 255,  .re = 255,  .gs = 255, .ge = 255, .bs = 0, .be = 0, .ef = EF_NONE },
     { .end = 1 },
 };
 
