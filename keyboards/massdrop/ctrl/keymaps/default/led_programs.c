@@ -40,6 +40,14 @@ led_setup_t leds_teal_read[] = {
     { .end = 1 },
 };
 
+led_setup_t leds_msft[] = {
+    { .hs = 0,  .he = 25,  .rs = 242,  .re = 242,  .gs = 80, .ge = 80, .bs = 34, .be = 34, .ef = EF_NONE },
+    { .hs = 25,  .he = 50,  .rs = 127,  .re = 127,  .gs = 186, .ge = 186, .bs = 0, .be = 0, .ef = EF_NONE },
+    { .hs = 50,  .he = 75,  .rs = 0,  .re = 0,  .gs = 164, .ge = 164, .bs = 239, .be = 239, .ef = EF_NONE },
+    { .hs = 75,  .he = 100,  .rs = 255,  .re = 255,  .gs = 185, .ge = 185, .bs = 0, .be = 0, .ef = EF_NONE },
+    { .end = 1 },
+};
+
 //All Teal
 led_setup_t leds_teal[] = {
     { .hs = 0,  .he = 100,  .rs = 24,  .re = 24,  .gs = 215, .ge = 215, .bs = 204, .be = 204, .ef = EF_NONE },
@@ -151,6 +159,7 @@ void *led_setups[] = {
     leds_teal_salmon,
     leds_orange_teal,
     leds_teal_read,
+    leds_msft,
     leds_teal,
     leds_tg,
     leds_rainbow_s,
@@ -163,8 +172,7 @@ void *led_setups[] = {
     leds_purple,
     leds_vibranium,
     leds_white,
-    leds_white_with_red_stripe,
-    leds_black_with_red_stripe,
+    //leds_white_with_red_stripe,
     leds_off
 };
 
